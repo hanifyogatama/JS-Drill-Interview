@@ -1,0 +1,27 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+form {
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
