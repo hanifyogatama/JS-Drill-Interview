@@ -1,5 +1,5 @@
-function exponent(base, exponent){
-    let result = 1;
+function exponentNumber(base, exponent){
+    let result=1;
     for(i = 0; i < exponent; i++){
         result *= base;
     }
@@ -8,4 +8,5 @@ function exponent(base, exponent){
 
 let baseNum = 3;
 let exponentNum = 3;
-console.log(`expoent from ${baseNum}^${exponentNum} is ${exponent(baseNum, exponentNum)}`);
+console.log(`exponent from ${baseNum}^${exponentNum} is ${exponentNumber(baseNum, exponentNum)}`);
+
