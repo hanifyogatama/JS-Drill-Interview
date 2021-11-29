@@ -13,3 +13,5 @@ function primeNumber(number){
     return prime;
 }
 
+
+
